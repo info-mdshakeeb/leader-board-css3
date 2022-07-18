@@ -5,29 +5,60 @@ body {
   background-color: #ffff;
   width: 870px;
   padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
 }
 main {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* top layer players */
+.top_player {
+  margin-bottom: 30px;
+}
 .title {
   margin-top: -5px;
 }
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 30px;
+  row-gap: 30px;
 }
 .player {
   display: flex;
-  align-items: center;
 }
 .player img {
   width: 56px;
   height: 56px;
 }
 .player-name {
+  margin-left: 16px;
+}
+hr {
+  border: 1px solid gold;
+}
+
+/* blog section start */
+.top-blogs {
+  margin-bottom: 30px;
+}
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 30px;
+}
+.blog {
+  display: flex;
+}
+.blog img {
+  width: 177px;
+  height: 117px;
+}
+.blog-content {
+  width: 164px;
+  height: 68px;
   margin-left: 16px;
 }
