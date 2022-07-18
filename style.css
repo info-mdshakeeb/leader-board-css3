@@ -64,19 +64,25 @@ hr {
   margin-left: 16px;
 }
 /* latest courses start */
-.latest-courses {
+.courses {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-.courses {
+.course {
   height: 269px;
   width: 252px;
-}
-.courses {
   display: flex;
-  align-items: center;
-}
+  flex-direction: column;
 
+  justify-content: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.course {
+  padding-left: 14px;
+  padding-right: 7px;
+  margin-right: 30px;
+}
 .course img {
   width: 224px;
   height: 104px;
